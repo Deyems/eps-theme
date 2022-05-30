@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/easyprof/public_html/easy-pro/wp-content/themes/easyprofessional
+    - /bin/cp -r * $DEPLOYPATH
