@@ -1,0 +1,540 @@
+
+/**
+MEDIA QUERY FOR HEADER
+*/
+@media only screen and (max-width: 1200px){
+    /* .navbar,.nav-menu{
+        display: block;
+    } */
+    .nav-link{
+        /* padding: 0.7rem 0rem; */
+        /* display: block; */
+        /* border: 1px solid red; */
+    }
+    .nav-menu{
+        /* border: 1px solid yellow; */
+    }
+    .nav-menu figure{
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar{
+        /* border: 1px solid yellow; */
+        /* display: flex; */
+        padding: 2rem 2rem;
+        
+    }
+
+    /* .logo-description{
+        display: inline;
+        color: var(--gen-text-color, #fff);
+        font-weight: 400;
+        font-size: calc(10px + 1vw);
+    } */
+    .hamburger{
+        /* display: block;
+        border: 1px solid red;
+        position: absolute;
+        top: 0;
+        right: 10; */
+    }
+
+    .clients-section{
+        /* border: 1px solid red; */
+    }
+    .clients-section figure{
+        /* border: 1px solid yellow; */
+        /* flex: 1; */
+        width: 8%;
+    }
+    .medium-biz-layer,.medium-biz-layer-left, .medium-biz-layer-right{
+        display: block;
+    }
+    .medium-biz-layer-left{
+        margin: 0;
+        padding: 1rem;
+        /* border: 1px solid greenyellow; */
+    }
+    .medium-biz-layer-left>div{
+        margin-top: 1rem;
+    }
+    .leverage-wrapper{
+        /* border: 1px solid white; */
+        margin: 0;
+    }
+    /**
+        Changing Padding for all the various Sections
+    */
+    .about, .services, .consulting, .sustainability, footer{
+        padding: 2rem 1rem;
+    }
+    .medium-biz-layer-right{
+        /* border: 1px solid red; */
+    }
+    .img-layer{
+        padding: 1rem;
+    }
+    
+    .img-layer figure{
+        /* padding: 1rem; */
+        width: 100%;
+        height: 100%;
+    }
+    .fig-caption{
+        padding-left: 1rem;
+    }
+    .sponsors-wrapper{
+        /* border: 1px solid yellow; */
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .service-description-title{
+        /* border: 2px solid burlywood; */
+        margin-bottom: 1rem;
+    }
+
+    .service-description{
+        /* border: 1px solid chartreuse; */
+        margin-bottom: 4rem;
+    }
+
+    .service-content-layer{
+        display: block;
+        /* border: 1px solid red; */
+        margin-bottom: 1rem;
+    }
+    .services .btn-contact-us{
+        /* display: none; */
+        text-align: center;
+    }
+
+    .tool-lists-wrapper{
+        border: 2px solid green;
+        display: block;
+    }
+
+    .sustainable-flexible-wrapper{
+        display: block;
+    }
+    .sustainable-solutions-wrapper{
+        /* border: 2px solid peru; */
+        padding: 2.6rem 0;
+    }
+
+    .sustainable-solutions-wrapper>div{
+        width: 90%;
+        margin: auto;
+    }
+
+    .sustainable-solutions-wrapper>div::before{
+        left: -5.5%;
+        font-size: 1.1rem;
+    }
+
+    .sustainable-solutions-wrapper>div p{
+        padding-right: 1rem;
+    }
+
+    .img-wrapper figure{
+        /* border: 1px solid red; */
+        transform: translate(0%, 0%);
+    }
+
+    .img-wrapper figure img{
+        width: 100%;
+    }
+
+    .footer-banner{
+        /* border: 2px solid red; */
+        padding: 1rem 1rem;
+        /* display: block; */
+        border-radius: 6px;
+        margin: 3rem 0;
+        margin-bottom: 5rem;
+    }
+    
+    .empty-wrap{
+        display: none;
+    }
+
+    .other-links-lists{
+        display: none;
+    }
+
+    .social-icons-container{
+        display: none;
+    }
+
+    .mb-view{
+        display: flex;
+        width: 40%;
+        margin: auto;
+    }
+
+    .footer-details>*{
+        flex: auto;
+    }
+    .footer-details .logo figure{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        transform: translate(0, -16%);
+        /* border: 1px solid red; */
+    }
+    @media only screen and (max-width: 1000px){
+        .navbar,.nav-menu,.navbar-menu{
+            display: block;
+            position: relative;
+        }
+        .btn-contact-us{
+            /* display: none; */
+        }
+        .nav-link{
+            padding: 0.7rem 0rem;
+            display: block;
+            /* border: 1px solid red; */
+        }
+        .nav-menu figure{
+            display: flex;
+            align-items: center;
+        }
+        .logo-description{
+            display: inline;
+            color: var(--gen-text-color, #fff);
+            font-weight: 400;
+            font-size: calc(10px + 1vw);
+        }
+        .hamburger{
+            /* display: block;
+            border: 1px solid red;
+            position: absolute;
+            top: 0;
+            right: 10; */
+        }
+
+        .clients-section{
+            /* border: 1px solid red; */
+        }
+        .clients-section figure{
+            /* border: 1px solid yellow; */
+            /* flex: 1; */
+            width: 8%;
+        }
+        .medium-biz-layer,.medium-biz-layer-left, .medium-biz-layer-right{
+            display: block;
+        }
+        .medium-biz-layer-left{
+            margin: 0;
+            padding: 1rem;
+            /* border: 1px solid greenyellow; */
+        }
+        .medium-biz-layer-left>div{
+            margin-top: 1rem;
+        }
+        .leverage-wrapper{
+            /* border: 1px solid white; */
+            margin: 0;
+        }
+        /**
+            Changing Padding for all the various Sections
+        */
+        .about, .services, .consulting, .sustainability, footer{
+            padding: 2rem 1rem;
+        }
+        .medium-biz-layer-right{
+            /* border: 1px solid red; */
+        }
+        .img-layer{
+            padding: 1rem;
+        }
+        .fig-caption{
+            padding-left: 1rem;
+        }
+        .sponsors-wrapper{
+            /* border: 1px solid yellow; */
+            padding: 1rem;
+            margin: 0;
+        }
+
+        .service-description-title{
+            /* border: 2px solid burlywood; */
+            margin-bottom: 1rem;
+        }
+
+        .service-description{
+            /* border: 1px solid chartreuse; */
+            margin-bottom: 4rem;
+        }
+
+        .service-content-layer{
+            display: block;
+            /* border: 1px solid red; */
+            margin-bottom: 1rem;
+        }
+        .services .btn-contact-us{
+            /* display: none; */
+            text-align: center;
+        }
+
+        .tool-lists-wrapper{
+            border: 2px solid green;
+            display: block;
+        }
+
+        .sustainable-flexible-wrapper{
+            display: block;
+        }
+        .sustainable-solutions-wrapper{
+            /* border: 2px solid peru; */
+            padding: 2.6rem 0;
+        }
+
+        .sustainable-solutions-wrapper>div{
+            width: 90%;
+            margin: auto;
+        }
+
+        .sustainable-solutions-wrapper>div::before{
+            left: -5.5%;
+            font-size: 1.1rem;
+        }
+
+        .sustainable-solutions-wrapper>div p{
+            padding-right: 1rem;
+        }
+
+        .img-wrapper figure{
+            /* border: 1px solid red; */
+            transform: translate(0%, 0%);
+        }
+
+        .img-wrapper figure img{
+            width: 100%;
+        }
+
+        .footer-banner{
+            /* border: 2px solid red; */
+            padding: 1rem 1rem;
+            /* display: block; */
+            border-radius: 6px;
+            margin: 3rem 0;
+            margin-bottom: 5rem;
+        }
+        
+        .empty-wrap{
+            display: none;
+        }
+
+        .other-links-lists{
+            display: none;
+        }
+
+        .social-icons-container{
+            display: none;
+        }
+
+        .mb-view{
+            display: flex;
+            width: 40%;
+            margin: auto;
+        }
+
+        .footer-details>*{
+            flex: auto;
+        }
+        .footer-details .logo figure{
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */
+            transform: translate(0, -16%);
+            /* border: 1px solid red; */
+        }
+
+        @media only screen and (max-width: 800px){
+            .navbar,.nav-menu,.navbar-menu{
+                display: block;
+            }
+            .clients-section{
+                /* border: 1px solid red; */
+            }
+            .clients-section figure{
+                /* border: 1px solid yellow; */
+                /* flex: 1; */
+                width: 8%;
+            }
+            .medium-biz-layer,.medium-biz-layer-left, .medium-biz-layer-right{
+                display: block;
+            }
+            .medium-biz-layer-left{
+                margin: 0;
+                padding: 1rem;
+                /* border: 1px solid greenyellow; */
+            }
+            .medium-biz-layer-left>div{
+                margin-top: 1rem;
+            }
+            .leverage-wrapper{
+                /* border: 1px solid white; */
+                margin: 0;
+            }
+            /**
+                Changing Padding for all the various Sections
+            */
+            .about, .services, .consulting, .sustainability, footer{
+                padding: 2rem 1rem;
+            }
+            .medium-biz-layer-right{
+                /* border: 1px solid red; */
+            }
+            .img-layer{
+                padding: 1rem;
+            }
+            .fig-caption{
+                padding-left: 1rem;
+            }
+            .sponsors-wrapper{
+                /* border: 1px solid yellow; */
+                padding: 1rem;
+                margin: 0;
+            }
+
+            .service-description-title{
+                /* border: 2px solid burlywood; */
+                margin-bottom: 1rem;
+            }
+
+            .service-description{
+                /* border: 1px solid chartreuse; */
+                margin-bottom: 4rem;
+            }
+
+            .service-content-layer{
+                display: block;
+                /* border: 1px solid red; */
+                margin-bottom: 1rem;
+            }
+            .services .btn-contact-us{
+                /* display: none; */
+                text-align: center;
+            }
+
+            .tool-lists-wrapper{
+                border: 2px solid green;
+                display: block;
+            }
+
+            .sustainable-flexible-wrapper{
+                display: block;
+            }
+            .sustainable-solutions-wrapper{
+                /* border: 2px solid peru; */
+                padding: 2.6rem 0;
+            }
+
+            .sustainable-solutions-wrapper>div{
+                width: 90%;
+                margin: auto;
+            }
+
+            .sustainable-solutions-wrapper>div::before{
+                left: -5.5%;
+                font-size: 1.1rem;
+            }
+
+            .sustainable-solutions-wrapper>div p{
+                padding-right: 1rem;
+            }
+
+            .img-wrapper figure{
+                /* border: 1px solid red; */
+                transform: translate(0%, 0%);
+            }
+
+            .img-wrapper figure img{
+                width: 100%;
+            }
+
+            .footer-banner{
+                /* border: 2px solid red; */
+                padding: 1rem 1rem;
+                /* display: block; */
+                border-radius: 6px;
+                margin: 3rem 0;
+                margin-bottom: 5rem;
+            }
+
+            .empty-wrap{
+                display: none;
+            }
+
+            .other-links-lists{
+                display: none;
+            }
+
+            .social-icons-container{
+                display: none;
+            }
+
+            .mb-view{
+                display: flex;
+                width: 40%;
+                margin: auto;
+            }
+
+            .footer-details>*{
+                flex: auto;
+            }
+            .footer-details .logo figure{
+                display: flex;
+                align-items: center;
+                /* justify-content: space-between; */
+                transform: translate(0, -16%);
+                /* border: 1px solid red; */
+            }
+
+            @media only screen and (max-width: 600px){
+                .navbar,.nav-menu, .navbar-menu{
+                    display: block;
+                }
+                .navbar{
+                    /* border: 1px solid yellow; */
+                    position: relative;
+                    /* padding: 0; */
+                    /* padding: 1rem; */
+                }
+                .hamburger{
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                .banner-headline{
+                    margin: auto;
+                    padding: 0.5rem 7rem;
+                }
+                
+                .banner-headline-2{
+                    padding: 1rem 2rem;
+                }
+
+                .service-description::before{
+                    width: auto;
+                }
+                .service-description-inner-wrapper{
+                    width: 100%;
+                    /* border: 1px solid red; */
+                }
+                .service-description-inner-wrapper p{
+                    padding-right: 1rem;
+                }
+                .medium-biz-layer,.medium-biz-layer-left, .medium-biz-layer-right{
+                    display: block;
+                }
+
+            }
+            
+        }
+    }
+}
