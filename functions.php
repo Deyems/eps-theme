@@ -20,6 +20,15 @@ include( get_theme_file_path('/includes/front/eps-enqueue.php') );
 
 //Hooks
 add_action('wp_enqueue_scripts', 'eps_enqueue');
+add_filter('show_admin_bar', '__return_false');
+
+    // add_action('after_setup_theme', 'remove_admin_bar');
+    // function remove_admin_bar() {
+    //     if (!current_user_can('administrator') && !is_admin()) {
+    //         show_admin_bar(false);
+    //     }
+    // }
+
 
 // add_action('after_setup_theme', 'ju_setup_theme');
 // add_action('widgets_init', 'ju_widgets');

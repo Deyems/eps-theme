@@ -13,48 +13,7 @@
         
         <body>
             <div class="wrapper">
-                <header id="home" class="header">
-                    <nav class="navbar">
-                        <div class="nav-menu">
-                            <figure>
-                                <img src='./public/assets/images/logo.png' alt="easylogo" />
-                                <span class="logo-description">Easy Professional Services</span>
-                            </figure>
-                            <ul class="navbar-menu">
-                                <li class="nav-menu-item"><a class="nav-link" href="#home">Home</a></li>
-                                <li class="nav-menu-item"><a class="nav-link" href="#about">About Us</a></li>
-                                <li class="nav-menu-item"><a class="nav-link" href="#services">Our Services</a></li>
-                                <!-- <li class="nav-menu-item"><a class="nav-link" href="#contact">Contact Us</a></li> -->
-                            </ul>
-                        </div>
-                        <div class="btn-contact-us">
-                            <button>Contact Us
-                                <span>
-                                    <img src='./public/assets/images/Greater_than.png' alt="arrow right" />
-                                </span>
-                            </button>
-                        </div>
-                        <div class="hamburger">
-                            <svg class="menu" viewBox="0 0 448 512" fill="#fff" width="50" title="bars">
-                                <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
-                            </svg>
-                            <svg class="close" viewBox="0 0 448 512" fill="#fff" width="50" title="times">
-                                <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
-                            </svg>
-                        </div>
-                    </nav>
-                    <div class="banner-text">
-                        <h1 class="banner-headline">Easy Professional Services (EPS)</h1>
-                        <h4 class="banner-headline-2">We leverage our experience to provide you with quality service and solutions for all your business needs.</h4>
-                        <div class="btn-contact-us">
-                            <button>Contact Us
-                                <span>
-                                    <img src='./public/assets/images/Greater_than.png' alt="arrow right" />
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </header>
+                <?php get_header() ?>
 
                 <div id="about" class="about">
                     <div class="about-title">
@@ -77,7 +36,7 @@
                                 <div class="btn-contact-us">
                                     <button>Get Help
                                         <span>
-                                            <img src='./public/assets/images/Greater_than.png' alt="arrow right" />
+                                            <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/Greater_than.png') ?>" alt="arrow right" />
                                         </span>
                                     </button>
                                 </div>
@@ -86,7 +45,7 @@
                         <div class="medium-biz-layer-right">
                             <div class="img-layer">
                                 <figure>
-                                    <img src="./public/assets/images/Medium_shot_business_team_work.png" alt="medium_shot_business">
+                                    <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/Medium_shot_business_team_work.png') ?>" alt="medium_shot_business">
                                 </figure>
                             </div>
                             <div class="fig-caption">
@@ -99,25 +58,25 @@
                     <div class="sponsors-wrapper">
                         <div class="clients-section">
                             <figure>
-                                <img src='./public/assets/clients/aigg.png' alt="aigg" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/clients/aigg.png') ?>" alt="aigg" />
                             </figure>
                             <figure>
-                                <img src='./public/assets/clients/nig.png' alt="Nig" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/clients/nig.png') ?>" alt="Nig" />
                             </figure>
                             <figure>
-                                <img src='./public/assets/clients/afping.png' alt="aefping" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/clients/afping.png') ?>" alt="aefping" />
                             </figure>
                             <figure>
-                                <img src='./public/assets/clients/smix.png' alt="smix" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/clients/smix.png') ?>" alt="smix" />
                             </figure>
                             <figure>
-                                <img src='./public/assets/clients/Baron.png' alt="baron" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/clients/Baron.png') ?>" alt="baron" />
                             </figure>
                             <figure>
-                                <img src='./public/assets/clients/pitch_investment.png' alt="pitch investment" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/clients/pitch_investment.png') ?>" alt="pitch investment" />
                             </figure>
                             <figure>
-                                <img src='./public/assets/clients/bilm.png' alt="bilm" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/clients/bilm.png') ?>" alt="bilm" />
                             </figure>
                         </div>
                     </div>
@@ -165,7 +124,7 @@
                         <div class="btn-contact-us">
                             <button>Get Help
                                 <span>
-                                    <img src='./public/assets/images/Greater_than.png' alt="arrow right" />
+                                    <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/Greater_than.png') ?>" alt="arrow right" />
                                 </span>
                             </button>
                         </div>
@@ -181,42 +140,42 @@
                         <div class="tool-list-container">
                             <h2>Executive Summary</h2>
                             <figure>
-                                <img src="./public/assets/images/tools/executive_summary.png" alt="exective summary tool" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/tools/executive_summary.png') ?>" alt="exective summary tool" />
                                 <figcaption>We provide a comprehensive overview of the company...</figcaption>
                             </figure>
                         </div>
                         <div class="tool-list-container">
                             <h2>Problem Statement</h2>
                             <figure>
-                                <img src="./public/assets/images/tools/problem_statement.png" alt="problem statement tool" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/tools/problem_statement.png') ?>" alt="problem statement tool" />
                                 <figcaption>Clearly articulating the issues that have been identified...</figcaption>
-                            </figure>
+                            </figure>`
                         </div>
                         <div class="tool-list-container">
                             <h2>SWOT Analysis</h2>
                             <figure>
-                                <img src="./public/assets/images/tools/service_swot_analysis.png" alt="swot analysis tool" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/tools/service_swot_analysis.png') ?>" alt="swot analysis tool" />
                                 <figcaption>An analysis of strengths, weaknesses, opportunities, and threats...</figcaption>
                             </figure>
                         </div>
                         <div class="tool-list-container">
                             <h2>PESTEL Analysis</h2>
                             <figure>
-                                <img src="./public/assets/images/tools/service_pestel_analysis.png" alt="pestel analysis tool" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/tools/service_pestel_analysis.png') ?>" alt="pestel analysis tool" />
                                 <figcaption>An examination of the external business environment to determine strategic position...</figcaption>
                             </figure>
                         </div>
                         <div class="tool-list-container">
                             <h2>Impact Analysis</h2>
                             <figure>
-                                <img src="./public/assets/images/tools/service_Imp_analysis.png" alt="impact analysis tool" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/tools/service_Imp_analysis.png') ?>" alt="impact analysis tool" />
                                 <figcaption>Visualized representation of the impact of PESTEL analysis on a business...</figcaption>
                             </figure>
                         </div>
                         <div class="tool-list-container">
                             <h2>Business Model Canvas</h2>
                             <figure>
-                                <img src="./public/assets/images/tools/business_model_canvas.png" alt="business canvsa model tool" />
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/tools/business_model_canvas.png') ?>" alt="business canvsa model tool" />
                                 <figcaption>A summary of all strategies, including the value proposed, revenue, and cost structure</figcaption>
                             </figure>
                         </div>
@@ -232,7 +191,7 @@
                     <div class="sustainable-flexible-wrapper">
                         <div class="img-wrapper">
                             <figure>
-                                <img src="./public/assets/images/Wind_farms_fields.png" alt="wind farm fields">
+                                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/Wind_farms_fields.png') ?>" alt="wind farm fields">
                             </figure>
                         </div>
                         <div class="sustainable-solutions-wrapper">
@@ -253,72 +212,7 @@
                     </div>
                 </div>
 
-                <footer>
-                    <div class="footer-banner">
-                        <div>
-                            <h2>
-                                We have made substantial impact in businesses.
-                                What are you waiting for?
-                            </h2>
-                        </div>
-                        <div class="footer-btn-wrap">
-                            <button class="footer-btn">Get Started Now</button>
-                        </div>
-                    </div>
-                    <div class="footer-details">
-                        <div class="logo">
-                            <figure>
-                                <img src='./public/assets/images/logo.png' alt="easylogo" />
-                                <span class="logo-description">Easy Professional Services</span>
-                            </figure>
-                        </div>
-                        <div class="home-link">
-                            <h3><a href="#home">Home</a></h3>
-                        </div>
-                        <div class="other-links">
-                            <h3><a href="">Company</a></h3>
-                            <div class="other-links-lists">
-                                <p><a href="#about">About</a></p>
-                                <p><a href="#services">Services</a></p>
-                                <p><a href="#sustainability">Our Solutions</a></p>
-                                <p><a href="#consulting">Consulting Tools</a></p>
-                                <p><a href="#sustainability">Environmental Sustainability</a></p>
-                            </div>
-                        </div>
-                        <div class="socials-wrapper">
-                            <h3>Social Media</h3>
-                            <section class="social-icons-container">
-                                <figure class="f-icon">
-                                    <img src="./public/assets/images/social-icons/facebook_icon.png" alt="facebook icon">
-                                </figure>
-                                <figure class="t-icon">
-                                    <img src="./public/assets/images/social-icons/twitter_icon.png" alt="twitter icon">
-                                </figure>
-                                <figure class="i-icon">
-                                    <img src="./public/assets/images/social-icons/Instagram - Original.png" alt="Instagram icon">
-                                </figure>
-                                <figure class="l-icon">
-                                    <img src="./public/assets/images/social-icons/linkedin_icon.png" alt="Linkedin icon">
-                                </figure>
-                            </section>
-                        </div>
-                        <div class="empty-wrap"></div>
-                    </div>
-                    <section class="social-icons-container mb-view">
-                        <figure class="f-icon">
-                            <img src="./public/assets/images/social-icons/facebook_icon.png" alt="facebook icon">
-                        </figure>
-                        <figure class="t-icon">
-                            <img src="./public/assets/images/social-icons/twitter_icon.png" alt="twitter icon">
-                        </figure>
-                        <figure class="i-icon">
-                            <img src="./public/assets/images/social-icons/Instagram - Original.png" alt="Instagram icon">
-                        </figure>
-                        <figure class="l-icon">
-                            <img src="./public/assets/images/social-icons/linkedin_icon.png" alt="Linkedin icon">
-                        </figure>
-                    </section>
-                </footer>
+                <?php get_footer() ?>
             </div>
             <!-- <script src="./public/scripts/index.js"></script> -->
             <?php wp_footer() ?>

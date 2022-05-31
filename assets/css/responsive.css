@@ -40,6 +40,15 @@ MEDIA QUERY FOR HEADER
         right: 10; */
     }
 
+    .banner-headline{
+        padding: 0.5rem 7rem;
+        /* font-size: 65px; */
+    }
+    
+    .banner-headline-2{
+        padding: 1rem 10rem;
+    }
+
     .clients-section{
         /* border: 1px solid red; */
     }
@@ -110,10 +119,10 @@ MEDIA QUERY FOR HEADER
         text-align: center;
     }
 
-    .tool-lists-wrapper{
-        border: 2px solid green;
-        display: block;
-    }
+    /* .tool-lists-wrapper{
+        /* border: 2px solid green;
+        /* display: block;
+    } */
 
     .sustainable-flexible-wrapper{
         display: block;
@@ -213,6 +222,15 @@ MEDIA QUERY FOR HEADER
             top: 0;
             right: 10; */
         }
+        .banner-text{
+            padding: calc(10vw - 15px) 0rem;
+        }
+
+        .banner-headline-2{
+            padding: 1rem 2rem;
+            /* border: 2px solid white; */
+            font-size: 1.5rem;
+        }
 
         .clients-section{
             /* border: 1px solid red; */
@@ -276,11 +294,6 @@ MEDIA QUERY FOR HEADER
         .services .btn-contact-us{
             /* display: none; */
             text-align: center;
-        }
-
-        .tool-lists-wrapper{
-            border: 2px solid green;
-            display: block;
         }
 
         .sustainable-flexible-wrapper{
@@ -421,8 +434,8 @@ MEDIA QUERY FOR HEADER
             }
 
             .tool-lists-wrapper{
-                border: 2px solid green;
-                display: block;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                /* border: 2px solid green; */
             }
 
             .sustainable-flexible-wrapper{
@@ -499,7 +512,7 @@ MEDIA QUERY FOR HEADER
                     display: block;
                 }
                 .navbar{
-                    /* border: 1px solid yellow; */
+                    border: 1px solid yellow;
                     position: relative;
                     /* padding: 0; */
                     /* padding: 1rem; */
@@ -508,15 +521,21 @@ MEDIA QUERY FOR HEADER
                     display: block;
                     position: absolute;
                     right: 0;
-                    top: 0;
+                    top: 35px;
                 }
                 .banner-headline{
                     margin: auto;
                     padding: 0.5rem 7rem;
+                    font-size: 1.2rem;
                 }
                 
                 .banner-headline-2{
                     padding: 1rem 2rem;
+                    font-size: 0.6rem;
+                }
+
+                .tool-lists-wrapper{
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
                 }
 
                 .service-description::before{
