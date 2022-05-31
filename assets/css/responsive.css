@@ -216,11 +216,10 @@ MEDIA QUERY FOR HEADER
             font-size: calc(10px + 1vw);
         }
         .hamburger{
-            /* display: block;
-            border: 1px solid red;
+            display: block;
             position: absolute;
-            top: 0;
-            right: 10; */
+            right: 40px;
+            top: 40px;
         }
         .banner-text{
             padding: calc(10vw - 15px) 0rem;
@@ -377,6 +376,17 @@ MEDIA QUERY FOR HEADER
                 /* flex: 1; */
                 width: 8%;
             }
+            
+            .banner-headline{
+                /* margin: auto; */
+                /* padding: 0.5rem 5rem; */
+                font-size: 2.1rem;
+            }
+            
+            .banner-headline-2{
+                /* padding: 1rem 2rem; */
+                font-size: 1.3rem;
+            }
             .medium-biz-layer,.medium-biz-layer-left, .medium-biz-layer-right{
                 display: block;
             }
@@ -512,7 +522,7 @@ MEDIA QUERY FOR HEADER
                     display: block;
                 }
                 .navbar{
-                    border: 1px solid yellow;
+                    /* border: 1px solid yellow; */
                     position: relative;
                     /* padding: 0; */
                     /* padding: 1rem; */
@@ -520,18 +530,18 @@ MEDIA QUERY FOR HEADER
                 .hamburger{
                     display: block;
                     position: absolute;
-                    right: 0;
+                    right: 35px;
                     top: 35px;
                 }
                 .banner-headline{
                     margin: auto;
-                    padding: 0.5rem 7rem;
-                    font-size: 1.2rem;
+                    padding: 0.5rem 5rem;
+                    font-size: 1.5rem;
                 }
                 
                 .banner-headline-2{
                     padding: 1rem 2rem;
-                    font-size: 0.6rem;
+                    font-size: 0.8rem;
                 }
 
                 .tool-lists-wrapper{

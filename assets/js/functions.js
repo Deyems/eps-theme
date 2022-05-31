@@ -1,5 +1,4 @@
 const tablinks = document.querySelectorAll('.tablinks');
-console.log('are we loaded on wp engine???')
 tablinks.forEach((link, idx) => {
     link.addEventListener('click', (e) => {
         // if(e.target === tablinks[idx]){
@@ -12,12 +11,18 @@ tablinks.forEach((link, idx) => {
 })
 
 const hamburger = document.querySelector('.hamburger');
-console.log(hamburger,'here...')
 const navdropdown = document.querySelector('.navbar-menu');
 const contactBtn = document.querySelector('.btn-contact-us');
 
-console.log(navdropdown,'dropdown nav')
-hamburger.addEventListener('click', () => {
+window.addEventListener('resize', (e) => {
+    let w = document.documentElement.clientWidth;
+    if(w > 1000){
+        navdropdown.classList.remove('hide');
+        contactBtn.classList.remove('hide');
+    }
+})
+
+hamburger.addEventListener('click', (e) => {
     navdropdown.classList.toggle('hide');
     contactBtn.classList.toggle('hide');
 })

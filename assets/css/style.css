@@ -32,7 +32,7 @@
 
 /** Header Section Starts here*/
 .header{
-    height: 100vh;
+    /* height: 100vh; */
     /* background-color: var(--bg-color, #08071F); */
     background: var(--bg-color, #08071F) url('../images/image\ 12.png') no-repeat fixed center;
     background-size: cover;
