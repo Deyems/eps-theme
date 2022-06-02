@@ -11,18 +11,25 @@ tablinks.forEach((link, idx) => {
 })
 
 const hamburger = document.querySelector('.hamburger');
+const pseudonavdropdown = document.querySelector('.navbar-menu-mb');
+const pseudocontactBtn = document.querySelector('.btn-contact-us-mb');
+
 const navdropdown = document.querySelector('.navbar-menu');
 const contactBtn = document.querySelector('.btn-contact-us');
 
 window.addEventListener('resize', (e) => {
     let w = document.documentElement.clientWidth;
     if(w > 1000){
-        navdropdown.classList.remove('hide');
-        contactBtn.classList.remove('hide');
+        pseudonavdropdown.classList.remove('show');
+        pseudocontactBtn.classList.remove('show');
     }
+    // if(w < 1000){
+    //     navdropdown.classList.add('hide');
+    //     contactBtn.classList.add('hide');
+    // }
 })
 
 hamburger.addEventListener('click', (e) => {
-    navdropdown.classList.toggle('hide');
-    contactBtn.classList.toggle('hide');
+    pseudonavdropdown.classList.toggle('show');
+    pseudocontactBtn.classList.toggle('show');
 })

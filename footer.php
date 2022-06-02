@@ -10,7 +10,7 @@
             <button class="footer-btn">Get Started Now</button>
         </div>
     </div>
-    <div class="footer-details">
+    <div id="footer" class="footer-details">
         <div class="logo">
             <figure>
                 <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/logo.png') ?>" alt="easylogo" />
@@ -34,16 +34,24 @@
             <h3>Social Media</h3>
             <section class="social-icons-container">
                 <figure class="f-icon">
-                    <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/facebook_icon.png') ?>" alt="facebook icon">
+                    <a href="https://www.facebook.com/Easyprofessionalservices" target="_blank">
+                        <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/facebook_icon.png') ?>" alt="facebook icon">
+                    </a>
                 </figure>
                 <figure class="t-icon">
-                    <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/twitter_icon.png') ?>" alt="twitter icon">
+                    <a href="https://twitter.com/easyprofservice?s=21">
+                        <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/twitter_icon.png') ?>" alt="twitter icon">
+                    </a>
                 </figure>
                 <figure class="i-icon">
-                    <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/Instagram-Original.png') ?>" alt="Instagram icon">
+                    <a href="https://instagram.com/easyprofessionalservices?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/Instagram-Original.png') ?>" alt="Instagram icon">
+                    </a>
                 </figure>
                 <figure class="l-icon">
-                    <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/linkedin_icon.png') ?>" alt="Linkedin icon">
+                    <a href="https://www.linkedin.com/company/easy-professional-services" target="_blank">
+                        <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/linkedin_icon.png') ?>" alt="Linkedin icon">
+                    </a>
                 </figure>
             </section>
         </div>
@@ -51,16 +59,24 @@
     </div>
     <section class="social-icons-container mb-view">
         <figure class="f-icon">
-            <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/facebook_icon.png') ?>" alt="facebook icon">
+            <a href="https://www.facebook.com/Easyprofessionalservices" target="_blank">
+                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/facebook_icon.png') ?>" alt="facebook icon">
+            </a>
         </figure>
         <figure class="t-icon">
-            <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/twitter_icon.png') ?>" alt="twitter icon">
+            <a href="https://twitter.com/easyprofservice?s=21">
+                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/twitter_icon.png') ?>" alt="twitter icon">
+            </a>
         </figure>
         <figure class="i-icon">
-            <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/Instagram-Original.png') ?>" alt="Instagram icon">
+            <a href="https://instagram.com/easyprofessionalservices?igshid=YmMyMTA2M2Y=" target="_blank">
+                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/Instagram-Original.png') ?>" alt="Instagram icon">
+            </a>
         </figure>
         <figure class="l-icon">
-            <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/linkedin_icon.png') ?>" alt="Linkedin icon">
+            <a href="https://www.linkedin.com/company/easy-professional-services" target="_blank">
+                <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/social-icons/linkedin_icon.png') ?>" alt="Linkedin icon">
+            </a>
         </figure>
     </section>
 </footer>

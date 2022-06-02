@@ -54,6 +54,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 2px solid ghostwhite; */
 }
 
 .logo-description{
@@ -80,11 +81,27 @@
     display: none;
 }
 
+.navbar-menu-mb{
+    display: none;
+}
+
 .btn-contact-us.hide{
     display: none;
 }
 
-.btn-contact-us button{
+.btn-contact-us-mb{
+    display: none;
+}
+
+.navbar-menu-mb.show{
+    display: block;
+}
+
+.btn-contact-us-mb.show{
+    display: block;
+}
+
+.btn-contact-us button, .btn-contact-us-mb button{
     font-size: 18px;
     font-weight: 400;
     padding: 0.5rem 1rem;
@@ -95,7 +112,7 @@
     background-color: var(--btn-bg, #081AFF);
 }
 
-.btn-contact-us button img{
+.btn-contact-us button img, .btn-contact-us-mb button img{
     height: 10px;
 }
 

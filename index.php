@@ -105,7 +105,7 @@
                                         Business Plan Writing
                                     </li>
                                     <li class="service-lists-list-item tablinks">
-                                        Financial Modelling
+                                        Financial Modeling
                                     </li>
                                     <li class="service-lists-list-item tablinks">
                                         Business Pitch and Proposal

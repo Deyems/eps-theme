@@ -21,8 +21,24 @@
                     <li class="nav-menu-item"><a class="nav-link" href="#services">Our Services</a></li>
                     <!-- <li class="nav-menu-item"><a class="nav-link" href="#contact">Contact Us</a></li> -->
                 </ul>
+                <ul class="navbar-menu-mb hide">
+                    <li class="nav-menu-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-menu-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-menu-item"><a class="nav-link" href="#services">Our Services</a></li>
+                    <!-- <li class="nav-menu-item"><a class="nav-link" href="#contact">Contact Us</a></li> -->
+                </ul>
             </div>
             <div class="btn-contact-us">
+                <button>
+                <a href="#footer">
+                    Contact Us
+                        <span>
+                            <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/Greater_than.png') ?>" alt="arrow right" />
+                        </span>
+                    </a>
+                </button>
+            </div>
+            <div class="btn-contact-us-mb hide">
                 <button>Contact Us
                     <span>
                         <img src="<?php echo esc_url(get_theme_file_uri(). '/assets/images/Greater_than.png') ?>" alt="arrow right" />
@@ -30,7 +46,7 @@
                 </button>
             </div>
             <div class="hamburger">
-                <svg class="menu" viewBox="0 0 448 512" fill="#fff" width="50" title="bars">
+                <svg class="menu" viewBox="0 0 448 512" fill="#fff" width="40" title="bars">
                     <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
                 </svg>
                 <!-- <svg class="close" viewBox="0 0 448 512" fill="#fff" width="50" title="times">
